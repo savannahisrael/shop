@@ -862,9 +862,9 @@
     "@types/node-fetch" "*"
     "@types/react" "*"
 
-"@types/nightwatch@0.9.12":
-  version "0.9.12"
-  resolved "https://registry.yarnpkg.com/@types/nightwatch/-/nightwatch-0.9.12.tgz#c9e60b1257b9806cb1c3f6e8f4e4d170d8011a6b"
+"@types/nightwatch@1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@types/nightwatch/-/nightwatch-1.1.1.tgz#23e24de4346d57f7323c6f9568092fd6864a17e5"
 
 "@types/node-fetch@*":
   version "2.1.1"
@@ -1921,7 +1921,7 @@ boxen@^1.2.1:
     term-size "^1.2.0"
     widest-line "^2.0.0"
 
-brace-expansion@^1.0.0, brace-expansion@^1.1.7:
+brace-expansion@^1.1.7:
   version "1.1.11"
   resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.11.tgz#3c7fcbf529d87226f3d2f52b966ff5271eb441dd"
   dependencies:
@@ -2227,9 +2227,9 @@ center-align@^0.1.1:
     align-text "^0.1.3"
     lazy-cache "^1.0.3"
 
-chai-nightwatch@0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/chai-nightwatch/-/chai-nightwatch-0.2.1.tgz#5cc8b2b005dfc0505722b6cfbea257f73de9bd70"
+chai-nightwatch@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/chai-nightwatch/-/chai-nightwatch-0.3.0.tgz#a3506a81942fbed6aed9e0a914ae32be187f9735"
   dependencies:
     assertion-error "1.0.0"
     deep-eql "0.1.3"
@@ -3208,6 +3208,10 @@ dotenv-expand@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/dotenv-expand/-/dotenv-expand-5.0.0.tgz#3951d7ee2e35371fe6cb8e4bcdcc39db134d4a95"
 
+dotenv@7.0.0, dotenv@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-7.0.0.tgz#a2be3cd52736673206e8a85fb5210eea29628e7c"
+
 dotenv@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-0.4.0.tgz#f6fb351363c2d92207245c737802c9ab5ae1495a"
@@ -3219,10 +3223,6 @@ dotenv@^4.0.0:
 dotenv@^6.1.0:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-6.2.0.tgz#941c0410535d942c8becf28d3f357dbd9d476064"
-
-dotenv@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-7.0.0.tgz#a2be3cd52736673206e8a85fb5210eea29628e7c"
 
 dotenv@^8.1.0:
   version "8.1.0"
@@ -6495,7 +6495,7 @@ lodash.assign@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/lodash.assign/-/lodash.assign-4.2.0.tgz#0d99f3ccd7a6d261d19bdaeb9245005d285808e7"
 
-lodash.clone@^3.0.3:
+lodash.clone@3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/lodash.clone/-/lodash.clone-3.0.3.tgz#84688c73d32b5a90ca25616963f189252a997043"
   dependencies:
@@ -6507,9 +6507,9 @@ lodash.defaults@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/lodash.defaults/-/lodash.defaults-4.2.0.tgz#d09178716ffea4dde9e5fb7b37f6f0802274580c"
 
-lodash.defaultsdeep@^4.6.0:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/lodash.defaultsdeep/-/lodash.defaultsdeep-4.6.0.tgz#bec1024f85b1bd96cbea405b23c14ad6443a6f81"
+lodash.defaultsdeep@^4.6.1:
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/lodash.defaultsdeep/-/lodash.defaultsdeep-4.6.1.tgz#512e9bd721d272d94e3d3a63653fa17516741ca6"
 
 lodash.differenceby@^4.8.0:
   version "4.8.0"
@@ -6587,9 +6587,13 @@ lodash.maxby@4.x:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash.maxby/-/lodash.maxby-4.6.0.tgz#082240068f3c7a227aa00a8380e4f38cf0786e3d"
 
-lodash.merge@4.x, lodash.merge@^4.6.1:
+lodash.merge@4.x:
   version "4.6.1"
   resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.1.tgz#adc25d9cb99b9391c59624f379fbba60d7111d54"
+
+lodash.merge@^4.6.2:
+  version "4.6.2"
+  resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
 
 lodash.once@^4.0.0:
   version "4.1.1"
@@ -6945,12 +6949,6 @@ minimalistic-crypto-utils@^1.0.0, minimalistic-crypto-utils@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/minimalistic-crypto-utils/-/minimalistic-crypto-utils-1.0.1.tgz#f6c00c1c0b082246e5c4d99dfb8c7c083b2b582a"
 
-minimatch@3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.3.tgz#2a4e4090b96b2db06a9d7df01055a62a77c9b774"
-  dependencies:
-    brace-expansion "^1.0.0"
-
 minimatch@3.0.4, minimatch@^3.0.0, minimatch@^3.0.2, minimatch@^3.0.3, minimatch@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
@@ -7027,7 +7025,7 @@ mkpath@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/mkpath/-/mkpath-1.0.0.tgz#ebb3a977e7af1c683ae6fda12b545a6ba6c5853d"
 
-mocha@^5.1.1:
+mocha@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/mocha/-/mocha-5.2.0.tgz#6d8ae508f59167f940f2b5b3c4a612ae50c90ae6"
   dependencies:
@@ -7202,22 +7200,23 @@ nice-try@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.4.tgz#d93962f6c52f2c1558c0fbda6d512819f1efe1c4"
 
-nightwatch@1.0.16:
-  version "1.0.16"
-  resolved "https://registry.yarnpkg.com/nightwatch/-/nightwatch-1.0.16.tgz#74f1328ebd4782bd5925d851786d7fa81ba992f9"
+nightwatch@1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/nightwatch/-/nightwatch-1.2.4.tgz#f13cc8e2f6870429cf1c0747e302b0cb9d91bb09"
   dependencies:
     assertion-error "^1.1.0"
-    chai-nightwatch "0.2.1"
+    chai-nightwatch "^0.3.0"
+    dotenv "7.0.0"
     ejs "^2.5.9"
-    lodash.clone "^3.0.3"
-    lodash.defaultsdeep "^4.6.0"
-    lodash.merge "^4.6.1"
-    minimatch "3.0.3"
+    lodash.clone "3.0.3"
+    lodash.defaultsdeep "^4.6.1"
+    lodash.merge "^4.6.2"
+    minimatch "3.0.4"
     mkpath "1.0.0"
     optimist "^0.6.1"
     proxy-agent "^3.0.0"
   optionalDependencies:
-    mocha "^5.1.1"
+    mocha "^5.2.0"
 
 no-case@^2.2.0, no-case@^2.3.2:
   version "2.3.2"
