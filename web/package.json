@@ -27,7 +27,7 @@
     "react": "16.10.2",
     "react-apollo": "3.0.0",
     "react-dom": "16.10.2",
-    "react-modal": "3.8.1",
+    "react-modal": "3.10.1",
     "request": "2.88.0",
     "request-promise-native": "1.0.7"
   },
@@ -42,7 +42,7 @@
     "@types/next": "6.1.8",
     "@types/prop-types": "15.7.3",
     "@types/react": "16.9.5",
-    "@types/react-modal": "3.8.1",
+    "@types/react-modal": "3.8.3",
     "@zeit/next-typescript": "0.1.1",
     "concurrently": "5.0.0",
     "dotenv-cli": "2.0.1",
